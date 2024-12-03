@@ -32,7 +32,7 @@ int main() {
             tree.insertRight(newValue);
         }
     }
-
+    
     std::cout << "In-order Traversal: " << tree.inOrderTraverse() << std::endl;
     std::cout << "Pre-order Traversal: " << tree.preOrderTraverse() << std::endl;
     std::cout << "Post-order Traversal: " << tree.postOrderTraverse() << std::endl;
